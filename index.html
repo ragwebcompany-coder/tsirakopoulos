@@ -23,6 +23,23 @@
   .hero::before {
     background: linear-gradient(100deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 36%, transparent 62%, transparent 78%) !important;
   }
+  .clinic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 40px;
+  }
+  .clinic-grid img {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    object-fit: cover;
+    aspect-ratio: 4/3;
+    transition: transform 0.4s ease;
+  }
+  .clinic-grid img:hover {
+    transform: scale(1.02);
+  }
   @media (max-width:560px) {
     .hero { background-image: var(--hero-bg) !important; background-color: transparent !important; }
     .hero h1 { font-size: clamp(36px, 9vw, 46px) !important; line-height: 1.15 !important; margin-bottom: 12px !important; }
@@ -168,11 +185,28 @@
   </div>
 </section>
 
+<section class="section clinic" id="clinic">
+  <div class="shell">
+    <div class="shead reveal">
+      <div>
+        <div class="kicker"><span class="num">03</span> Ο Χώρος Μας</div>
+        <h2>Το <em>Ιατρείο</em></h2>
+      </div>
+      <p class="lead">Ένας σύγχρονος, άρτια εξοπλισμένος και φιλόξενος χώρος, σχεδιασμένος με γνώμονα την άνεση, την υγιεινή και την ασφάλειά σας.</p>
+    </div>
+    
+    <div class="clinic-grid reveal">
+      <img src="clinic-1.png" alt="Το Ιατρείο μας 1" />
+      <img src="clinic-2.jpg" alt="Το Ιατρείο μας 2" />
+    </div>
+  </div>
+</section>
+
 <section class="section exams" id="exams">
   <div class="shell">
     <div class="shead reveal">
       <div>
-        <div class="kicker"><span class="num">03</span> Διαγνωστικό Ιατρείο</div>
+        <div class="kicker"><span class="num">04</span> Διαγνωστικό Ιατρείο</div>
         <h2>Πλήρεις εξετάσεις <em>επί τόπου</em></h2>
       </div>
       <p class="lead">Ο απαραίτητος γυναικολογικός και μαιευτικός έλεγχος σε έναν χώρο — με διακριτικότητα και ασφάλεια.</p>
@@ -203,7 +237,7 @@
   <div class="shell">
     <div class="shead reveal">
       <div>
-        <div class="kicker"><span class="num">04</span> Ωράριο Λειτουργίας</div>
+        <div class="kicker"><span class="num">05</span> Ωράριο Λειτουργίας</div>
         <h2>Πότε μπορείτε να <em>μας βρείτε</em></h2>
       </div>
       <p class="lead">Το ιατρείο λειτουργεί με ραντεβού. Η σημερινή ημέρα επισημαίνεται αυτόματα.</p>
@@ -237,7 +271,7 @@
   <div class="shell">
     <div class="shead reveal">
       <div>
-        <div class="kicker"><span class="num">05</span> Εμπειρίες Ασθενών</div>
+        <div class="kicker"><span class="num">06</span> Εμπειρίες Ασθενών</div>
         <h2>Τι λένε όσες μας <em>εμπιστεύτηκαν</em></h2>
       </div>
       <p class="lead">Συνολική βαθμολογία <b style="color:var(--ink)">5.0 / 5.0</b> από αξιολογήσεις ασθενών στο Google.</p>
