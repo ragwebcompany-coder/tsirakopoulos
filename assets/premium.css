@@ -71,7 +71,7 @@ h1,h2,h3,.display{
 .brand-mark{position:relative;width:54px;height:54px;display:grid;place-items:center;flex:none;color:var(--accent)}
 .brand-mark img{width:54px;height:54px;object-fit:contain;display:block}
 .brand-txt strong{display:block;font-family:"Fraunces",serif;font-weight:600;font-size:23px;line-height:1;color:var(--ink)}
-.brand-txt span{display:block;margin-top:5px;font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.brand-txt span{display:block;margin-top:5px;font-size:11.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--ink)}
 .nav-links{display:flex;align-items:center;gap:30px;font-size:13.5px;font-weight:500}
 .nav-links a{position:relative;color:var(--ink-2);transition:color .25s ease;padding:4px 0}
 .nav-links a::after{content:"";position:absolute;left:0;bottom:-2px;height:2px;width:0;background:var(--accent);
