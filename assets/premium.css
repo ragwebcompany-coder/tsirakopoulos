@@ -392,7 +392,7 @@ footer{background:var(--cream);color:var(--muted);padding:54px 0 34px;border-top
   .brand{gap:11px}
   .brand-mark,.brand-mark img{width:44px;height:44px}
   .brand-txt strong{font-size:18px}
-  .brand-txt span{font-size:10px;letter-spacing:.14em;margin-top:3px}
+  .brand-txt span{font-size:8.5px;letter-spacing:.08em;margin-top:3px}
   .hamburger{width:26px;height:16px}
 
   .stats{padding:54px 0}
