@@ -124,7 +124,7 @@ body.menu-open .overlay{opacity:1;pointer-events:auto}
 .hero .shell{position:relative;z-index:2;display:block;width:100%}
 .hero-text{max-width:640px;padding-left:clamp(16px,4vw,72px)}
 .hero-mobile-art{display:none}
-.eyebrow{display:inline-flex;align-items:center;gap:11px;font-size:11.5px;font-weight:600;
+.eyebrow{display:inline-flex;align-items:center;gap:11px;font-size:13px;font-weight:800;
   letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-bottom:26px}
 .eyebrow::before{content:"";width:34px;height:1px;background:var(--accent)}
 .hero h1{font-size:clamp(40px,5.2vw,68px);font-weight:600;margin:0;line-height:1.14}
